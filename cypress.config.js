@@ -4,7 +4,7 @@ module.exports = defineConfig({
   projectId: 'jztgsx',
   e2e: {
     baseUrl: "https://demoqa.com/webtables",
-    defaultCommandTimeout: 6000,
+    defaultCommandTimeout: 10000,
     viewportHeight: 900,
     viewportWidth: 1440,
     setupNodeEvents(on, config) {
