@@ -1,5 +1,8 @@
 # dependencies
 /node_modules
 /.vscode
-/cypress/screenshots
 .env
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress.env.json
