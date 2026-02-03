@@ -7,7 +7,9 @@
 		"cypress:open": "cypress open",
 		"cypress:run": "cypress run",
 		"cypress:run:record": "cypress run --record --key $CYPRESS_RECORD_KEY",
-		"test": "cypress run"
+		"test": "cypress run",
+		"test:prod": "cypress open --env version=prod",
+		"test:stage": "cypress run --env version=stage"
 	},
 	"repository": {
 		"type": "git",
@@ -24,9 +26,12 @@
 	"devDependencies": {
 		"@eslint/js": "^9.39.2",
 		"cypress": "^15.9.0",
+		"cypress-mochawesome-reporter": "^4.0.2",
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
 		"globals": "^17.2.0",
+		"mochawesome-merge": "^5.1.0",
+		"mochawesome-report-generator": "^6.3.2",
 		"prettier": "3.8.1"
 	}
 }

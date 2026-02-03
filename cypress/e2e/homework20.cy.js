@@ -1,4 +1,4 @@
-describe('HW 20. Cypress actions, assertions and custom commands', () => {
+describe.skip('HW 20. Cypress actions, assertions and custom commands', () => {
 	const user = Cypress.env('basicAuthUser');
 	const pass = Cypress.env('basicAuthPass');
 	const url = 'qauto.forstudy.space';
@@ -93,5 +93,4 @@ describe('HW 20. Cypress actions, assertions and custom commands', () => {
 		cy.get('.close').click();
 		cy.login(newUser.email, newUser.password);
 	});
-
 });

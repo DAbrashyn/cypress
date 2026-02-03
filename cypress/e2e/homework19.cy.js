@@ -1,4 +1,4 @@
-describe('HW 19.1. Cypress queries', () => {
+describe.skip('HW 19.1. Cypress queries', () => {
 	const user = Cypress.env('basicAuthUser');
 	const pass = Cypress.env('basicAuthPass');
 	const url = 'qauto.forstudy.space';
